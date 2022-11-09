@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/medium.css">
+    <title>Medium</title>
+</head>
+<body>
+    <div class="bg-yellow border-bottom-dark py-1 fixed-top"> <!-- fixed-top = Burayı sayfada sabitliyor. -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                  <i class="fa-brands fa-medium"></i>  
+                  <strong>
+                      Medium
+                    </strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Write</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item ml-3"> <!-- ml-3 = margin left 3 birim soldan aç -->
+                        <a class="nav-link btn btn-dark text-light" href="#">Get Started</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <div class="bg-yellow py-5 border-bottom-dark mt-5"> <!-- bg-yellow = arka tema sarı, py-5 = pading y ekseni 5 birim boşluk, border-bottom-dark = alt sınır çizgi siyah -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="display-3"> <!-- display-2 = yazı boyutu büyüdü -->
+                      Explore new perspectives
+                    </h1>
+                    <p class="lead"> <!-- lead = yazıyı biraz daha büyültmek için -->
+                      Discover stories, thinking, and expertise from writers on any topic.
+                      <br>
+                      <a href="#" class="text-dark"><u>learn more.</u></a> <!-- text-dark = yazı siyah, <u> = underline = altı çizili -->
+                    </p>
+                    <a href="#" class="btn btn-outline-dark">Get Started</a> <!-- a.btn -->
+                </div>
+                <div class="col-6">
+                    <img src="https://picsum.photos/300/300" alt="" class="rounded-circle float-right"> <!-- rounded-circle = yuvarlak resim, float-right = sağa kaydır -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 mb-2">
+          <h6><i class="fa-solid fa-rocket"></i><small class="ml-3">TRENDING ON MEDIUM</small></h6> <!-- <i class="fa-solid fa-rocket"> = roket logo, small = yazıyı küçült, ml-3 = margin lesf 3  -->
+        </div>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">01</h6> <!-- text-black-50 veya text-muted = yazıyı biraz soluklaştırdı -->
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+              <span class="small ml-1">Dave Troy</span>
+              <h6 class="mt-2">
+                <strong>No, Elon and Jack are not “competitors.” They’re collaborating.</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Oct 29 .</li>
+                <li class="list-inline-item">9 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> <!-- Yıldız ikonu -->
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>  <!-- article.col-sm-4*6>lorem1 -->
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">02</h6> 
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+              <span class="small ml-1">Natassha Selvaraj
+                <small class="text-muted">in</small>
+                Towards Data Science</span>
+              <h6 class="mt-2">
+                <strong>Meet Julia: The Future of Data Science</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Nov 02 .</li>
+                <li class="list-inline-item">7 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> 
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">03</h6> 
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/13/25/25" alt="">
+              <span class="small ml-1">Will Lockett
+                <small class="text-muted">in</small>
+                Predict</span>
+              <h6 class="mt-2">
+                <strong>Toyota Just Thrashed Tesla</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Oct 30 .</li>
+                <li class="list-inline-item">4 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> 
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">04</h6> 
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/14/25/25" alt="">
+              <span class="small ml-1">Simon Holdorf
+                <small class="text-muted">in</small>
+                Level Up Coding</span>
+              <h6 class="mt-2">
+                <strong>10 Must-Read Books for Software Engineers</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Oct 28 .</li>
+                <li class="list-inline-item">7 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> 
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">05</h6> 
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/15/25/25" alt="">
+              <span class="small ml-1">Nassim Nicholas Taleb
+                <small class="text-muted">in</small>
+                INCERTO</span>
+              <h6 class="mt-2">
+                <strong>How I write</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Oct 30 .</li>
+                <li class="list-inline-item">7 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> 
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>
+        <article class="col-sm-4 mb-2">
+          <div class="row">
+            <div class="col-1">
+              <h6 class="text-black-50">06</h6> 
+            </div>
+            <div class="col-11">
+              <img class="rounded-circle" src="https://picsum.photos/id/16/25/25" alt="">
+              <span class="small ml-1">
+                Brad Gerstner @altcap</span>
+              <h6 class="mt-2">
+                <strong>Time to Get Fit — an Open Letter from Altimeter to Mark Zuckerberg (and the...</strong>
+              </h6>
+
+              <ul class="list-inline small">
+                <li class="list-inline-item">Oct 24 .</li>
+                <li class="list-inline-item">8 min read</li>
+                <li class="list-inline-item">
+                  <i class="fa-regular fa-star"></i> 
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>  <!-- Conteiner - end -->
+     
+    <div class="border-top-dark mt-5"> <!-- .border-top-dark>.conteiner = Sınır içeren ayrı bir Konteynır a alındı. -->
+      <div class="container">
+        <div class="row mt-5"> <!-- Alt kısımdaki bölüm için ROW açıldı. --> <!-- Section 8 lik, Aside 4 lük İki bölüm açıldı. -->
+          <section class="col-sm-8"> <!-- section.col-sm-8 -->
+            <article class="row mb-3"> <!-- Section içerisinde 8 lik ve 4 lik iki yeni bölüm oluşturmak için; article.row>.col-8+.col-4 -->
+              <div class="col-8">
+                <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+                <span class="small ml-1">Natassha Selvaraj
+                  <small class="text-muted">in</small>
+                  Towards Data Science</span>
+                <h6 class="mt-2">
+                  <strong>Meet Julia: The Future of Data Science</strong>
+                </h6>
+                <p>
+                  Lorem, ipsum dolor.
+                </p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 24 .</li>
+                  <li class="list-inline-item">8 min read</li>
+                  <li class="list-inline-item">
+                    <i class="fa-regular fa-star"></i> 
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="col-4">
+                <img src="https://picsum.photos/400/250" alt="" class="w-100"> <!-- img.w-100 -->
+              </div>
+            </article>
+            <article class="row mb-3"> 
+              <div class="col-8">
+                <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+                <span class="small ml-1">Natassha Selvaraj
+                  <small class="text-muted">in</small>
+                  Towards Data Science</span>
+                <h6 class="mt-2">
+                  <strong>Meet Julia: The Future of Data Science</strong>
+                </h6>
+                <p>
+                  Lorem, ipsum dolor.
+                </p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 24 .</li>
+                  <li class="list-inline-item">8 min read</li>
+                  <li class="list-inline-item">
+                    <i class="fa-regular fa-star"></i> 
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="col-4">
+                <img src="https://picsum.photos/id/38/400/250" alt="" class="w-100"> <!-- img.w-100 -->
+              </div>
+            </article>
+            <article class="row mb-3"> 
+              <div class="col-8">
+                <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+                <span class="small ml-1">Natassha Selvaraj
+                  <small class="text-muted">in</small>
+                  Towards Data Science</span>
+                <h6 class="mt-2">
+                  <strong>Meet Julia: The Future of Data Science</strong>
+                </h6>
+                <p>
+                  Lorem, ipsum dolor.
+                </p>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 24 .</li>
+                  <li class="list-inline-item">8 min read</li>
+                  <li class="list-inline-item">
+                    <i class="fa-regular fa-star"></i> 
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="col-4">
+                <img src="https://picsum.photos/id/61/400/250" alt="" class="w-100"> <!-- img.w-100 -->
+              </div>
+            </article>
+  
+          </section>
+  
+          <aside class="col-sm-4">  <!--aside.col-sm-4 -->
+  
+            <h6>
+              <small>
+                <strong>DISCOVER MORE OF WHAT MATTERS TO YOU</strong>
+              </small>
+            </h6>
+  
+            <ul class="list-inline aside-buttons">  <!-- aside-buttons , CSS te -->
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a> <!-- a.btn.btn-sm.btn-outline-secondary>lorem -->
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Ipsum</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Dolor</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Ipsum</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Dolor</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Ipsum</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Dolor</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Ipsum</a> 
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="btn btn-sm btn-outline-secondary">Dolor</a> 
+              </li>
+          </aside>
+  
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
